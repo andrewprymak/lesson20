@@ -1,0 +1,186 @@
+h1, h2, h3, h4, h5, h6, ul, body {
+    margin: 0;
+    padding: 0;
+}
+//button1
+.btn1{
+    @include btn(220px,$primary-2,50px,$font-semibold);
+    text-transform: uppercase;
+}
+.btn2{
+    @include btn(280px,$pr-1-dark-1,50px,$font-semibold);
+    text-transform: capitalize;
+}
+.btn3{
+    @include btn(200px,$pr-1-dark-1,50px,$font-semibold);
+    text-transform: capitalize;
+}
+.btn4{
+    @include btn(200px,$light,50px,$font-semibold);
+    text-transform: capitalize;
+    border: $primary-2 solid 1px;
+    color: $primary-2;
+}
+.btn5{
+    @include btn(200px,$light,50px,$font-semibold);
+    text-transform: capitalize;
+    border: $pr-1-dark-1 solid 1px;
+    color: $pr-1-dark-1;
+}
+.btn1-h{
+    @include btn(220px,$primary-2,50px,$font-semibold);
+    text-transform: uppercase;
+    &:hover{
+        background-color: $pr-2-light-1;
+    }
+}
+.btn2-h{
+    @include btn(280px,$pr-1-dark-1,50px,$font-semibold);
+    text-transform: capitalize;
+    &:hover{
+        background-color: $pr-1-light-1;
+    }
+}
+.btn3-h{
+    @include btn(200px,$pr-1-dark-1,50px,$font-semibold);
+    text-transform: capitalize;
+    &:hover{
+        background-color: $pr-1-light-1;
+    }
+}
+.btn4-h{
+    @include btn(200px,$light,50px,$font-semibold);
+    text-transform: capitalize;
+    border: $primary-2 solid 1px;
+    color: $primary-2;
+    &:hover{
+        background-color: $pr-2-light-1;
+        color: $light;
+    }
+}
+.btn5-h{
+    @include btn(200px,$light,50px,$font-semibold);
+    text-transform: capitalize;
+    border: $pr-1-dark-1 solid 1px;
+    color: $pr-1-dark-1;
+    &:hover{
+        background-color: $pr-1-light-1;
+        color: $light;
+    }
+}
+.btn1-d{
+    @include btn(220px,$disabled,50px,$font-semibold);
+    text-transform: uppercase;
+}
+.btn2-d{
+    @include btn(280px,$disabled,50px,$font-semibold);
+    text-transform: capitalize;
+}
+.btn3-d{
+    @include btn(200px,$disabled,50px,$font-semibold);
+    text-transform: capitalize;
+}
+.btn4-d{
+    @include btn(200px,$disabled,50px,$font-semibold);
+    text-transform: capitalize;
+}
+.btn5-d{
+    @include btn(200px,$disabled,50px,$font-semibold);
+    text-transform: capitalize;
+}
+//button2
+.bttn1{
+    @include btn(150px,$primary-2,50px,$font-semibold);
+    text-transform: uppercase;
+}
+.bttn2{
+    @include btn(170px,$pr-1-dark-1,50px,$font-semibold);
+    text-transform: capitalize;
+}
+.bttn3{
+    @include btn(150px,$pr-1-dark-1,50px,$font-semibold);
+    text-transform: capitalize;
+}
+.bttn4{
+    @include btn(150px,$light,50px,$font-semibold);
+    text-transform: capitalize;
+    border: $primary-2 solid 1px;
+    color: $primary-2;
+}
+.bttn5{
+    @include btn(150px,$light,50px,$font-semibold);
+    text-transform: capitalize;
+    border: $pr-1-dark-1 solid 1px;
+    color: $pr-1-dark-1;
+}
+.bttn1-h{
+    @include btn(150px,$primary-2,50px,$font-semibold);
+    text-transform: uppercase;
+    &:hover{
+        background-color: $pr-2-light-1;
+    }
+}
+.bttn2-h{
+    @include btn(170px,$pr-1-dark-1,50px,$font-semibold);
+    text-transform: capitalize;
+    &:hover{
+        background-color: $pr-1-light-1;
+    }
+}
+.bttn3-h{
+    @include btn(150px,$pr-1-dark-1,50px,$font-semibold);
+    text-transform: capitalize;
+    &:hover{
+        background-color: $pr-1-light-1;
+    }
+}
+.bttn4-h{
+    @include btn(150px,$light,50px,$font-semibold);
+    text-transform: capitalize;
+    border: $primary-2 solid 1px;
+    color: $primary-2;
+    &:hover{
+        background-color: $pr-2-light-1;
+        color: $light;
+    }
+}
+.bttn5-h{
+    @include btn(150px,$light,50px,$font-semibold);
+    text-transform: capitalize;
+    border: $pr-1-dark-1 solid 1px;
+    color: $pr-1-dark-1;
+    &:hover{
+        background-color: $pr-1-light-1;
+        color: $light;
+    }
+}
+.bttn1-d{
+    @include btn(150px,$disabled,50px,$font-semibold);
+    text-transform: uppercase;
+}
+.bttn2-d{
+    @include btn(170px,$disabled,50px,$font-semibold);
+    text-transform: capitalize;
+}
+.bttn3-d{
+    @include btn(150px,$disabled,50px,$font-semibold);
+    text-transform: capitalize;
+}
+.bttn4-d{
+    @include btn(150px,$disabled,50px,$font-semibold);
+    text-transform: capitalize;
+}
+.bttn5-d{
+    @include btn(150px,$disabled,50px,$font-semibold);
+    text-transform: capitalize;
+}
+.error-enter{
+    border: solid $primary-2 1px;
+    background-color: $light;
+    width: 320px;
+    height: 50px;
+    font-size: 13px;
+    font-family: $font-regular;
+
+}
+
