@@ -1,197 +1,59 @@
-.palette{
-    font-family: $font-sans-bold;
-    margin: 50px 0;
-}
-.colors{
-    width: 500px;
-    font-family: $font-museo;
-}
-.colors>div{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 20px;
-}
-.colors p{
-    margin-right: 80px;
-}
-.primaries{
-    background-color: #f6f6f6;
-}
-.colors>div>div{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin-right: 10px;
-    border: 1px solid grey;
-}
-.pr-1{
+.container-fluid{
     background-color: $primary-1;
 }
-.pr-2{
-    background-color: $primary-2;
+.container{
+    display: flex;
+    font-family: $font-sans;
+    color: $light;
 }
-.pr-3{
-    background-color: $primary-3;
+h1{
+    font-family: $font-sans-italic;
 }
-.pr-4{
-    background-color: $primary-4;
+.logo{
+    color: yellow;
+    font-family: $font-sans;
 }
-
-//light-1
-.pr-1-light-1{
-    background-color: $pr-1-light-1;
+.site{
+    margin: 0;
 }
-.pr-2-light-1{
-    background-color: $pr-2-light-1;
+.menu{
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-.pr-3-light-1{
-    background-color: $pr-3-light-1;
+ul{
+    font-family: $font-semibold;
 }
-.pr-4-light-1{
-    background-color: $pr-4-light-1;
+li{
+    display: inline;
+    list-style-type: none;
+    list-style: none;
+    font-size: 10px;
 }
-//light-2
-.pr-1-light-2{
-    background-color: $pr-1-light-2;
+i{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-.pr-2-light-2{
-    background-color: $pr-2-light-2;
-}
-.pr-3-light-2{
-    background-color: $pr-3-light-2;
-}
-.pr-4-light-2{
-    background-color: $pr-4-light-2;
-}
-//light-3
-.pr-1-light-3{
-    background-color: $pr-1-light-3;
-}
-.pr-2-light-3{
-    background-color: $pr-2-light-3;
-}
-.pr-3-light-3{
-    background-color: $pr-3-light-3;
-}
-.pr-4-light-3{
-    background-color: $pr-4-light-3;
-}
-
-//dark-1
-.pr-1-dark-1{
+.signin{
+    width: 100px;
+    height: 40px;
     background-color: $pr-1-dark-1;
-}
-.pr-2-dark-1{
-    background-color: $pr-2-dark-1;
-}
-.pr-3-dark-1{
-    background-color: $pr-3-dark-1;
-}
-.pr-4-dark-1{
-    background-color: $pr-4-dark-1;
-}
-//dark-2
-.pr-1-dark-2{
-    background-color: $pr-1-dark-2;
-}
-.pr-2-dark-2{
-    background-color: $pr-2-dark-2;
-}
-.pr-3-dark-2{
-    background-color: $pr-3-dark-2;
-}
-.pr-4-dark-2{
-    background-color: $pr-4-dark-2;
-}
-//dark-3
-.pr-1-dark-3{
-    background-color: $pr-1-dark-3;
-}
-.pr-2-dark-3{
-    background-color: $pr-2-dark-3;
-}
-.pr-3-dark-3{
-    background-color: $pr-3-dark-3;
-}
-.pr-4-dark-3{
-    background-color: $pr-4-dark-3;
-}
+    border: 1px solid $pr-1-dark-1;
+    border-radius: 5px;
+    color: $light;
+    font-family: $font-semibold;
+    margin: auto 5px auto 5px;
 
-//typography
-.typography{
-    font-family: $font-sans-bold;
-    width: 500px;
-    margin: 50px 0;
 }
-.text{
-    width: 1140px;
+.order{
+    width: 100px;
+    height: 40px;
+    background-color: $primary-2;
+    border: 1px solid $primary-2;
+    border-radius: 5px;
+    color: $light;
+    font-family: $font-semibold;
+    margin: auto 5px auto 5px;
 }
-.name{
-    margin-right: 150px;
-    font-family: $font-museo;
-    color: #51555a;
-}
-.text>div{
-    display: flex;
-    // justify-content: flex-end;
-    align-items: center;
-    
-}
-.description{
-    font-family: $font-museo;
-    color: #a3a6a9;
-}
-.h-1, .h-2, .h-3, .h-4, .h-5, .h-6, .par, .sub{
-    font-family: $font-medium;
-}
-.h-1{
-    font-family: $font;
-    font-size: 35px;
-}
-.h-2{
-    font-size: 33px;
-}
-span{
-    &:hover{
-        color: #fff;
-        background-color: $primary-1;
-    }
-}
-.h-3{
-    font-size: 27px;
-}
-.h-4{
-    font-size: 22px;
-}
-.h-5{
-    font-size: 17px;
-}
-.h-6{
-    font-size: 15px;
-}
-.par{
-    font-family: $font-regular;
-    font-size: 14px;;
-}
-.sub{
-    font-size: 20px;
-}
-
-//buttons
-
-.but-1, .but-2{
-    display: flex;
-    // justify-content: flex-end;
-    align-items: center;
-    margin-top: 20px;
-    margin-right: 20px;
-}
-button .but-1, .but-2{
-    margin-right: 20px;
-}
-.but-1, .but-2 p{
-    margin-right: 50px;
-    font-family: $font-museo;
-}
-
