@@ -155,7 +155,7 @@
     margin-top: 50px;
     margin-bottom: 90px;
 }
-
+//step
 .step{
     display: inline-block;
     background-color: $light;
@@ -185,7 +185,7 @@
     width: 200px;
     height: 315px;
     background-color: $light;
-    // color: $primary-4;
+    margin-bottom: 100px;
 }
 .colums-s img{
     margin-top: 40px;
@@ -201,7 +201,126 @@
     font-family: $font-regular;
     margin-top: 20px;
 }
-.banner-button{
+.rocket{
+    background-image: url(../../../img/rocket.png);
+    background-position-y: 2%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 450px;
+    
+}
+.rocket-text{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 90px;
+}
+.rocket-text h2{
+    margin-top: 30px;
+    font-family: $font-medium;
+}
+.rocket-text p{
+    // margin-top: 30px;
+    font-family: $font-medium;
+    // width: 500px;
+}
+.column-r{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: $light;
+    width: 550px;
+    margin-top: 8%;
+    border: 1px solid grey;
+}
+.column-r>div{
+    // width: 110px;
+    text-align: center;
+    margin-top: 15%;
+}
+.off{
+    font-family: $font;
+    font-size: 26px;
+    color: $primary-2;
+    font-weight: bold;
+    margin: 0;
+}
+.more-than{
+    font-family: $font-regular;
+    font-size: 12px;
+    color: #000;
+    margin: 0;
+}
+.pages{
+    color: $primary-1;
+}
+.rocket-columns{
+    display: flex;
+}
+.main-coupon {
+    display: grid;
+    background-color: $primary-1;
+    padding: 15px 25px 25px 25px;
+    margin-top: 0px;
+    width: 390px;
+    float: left;
+    margin-top: 8%;
+    border: 2px dashed $pr-1-dark-2;
+    border-radius: 10px;
+
+    h4{
+        font-family: $font-semibold;
+    }
+    .middle{
+        background-color: $pr-1-dark-1;
+        border: 2px dashed $light;
+        border-radius: 10px;
+    }
+    .sp-1{
+        font-family: $font-medium;
+        font-size: 16px;
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-left: 15%;
+    }
+    .sp-2{
+        font-family: $font;
+        color: yellow;
+        font-size: 46px;
+        line-height: 46px;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: left;
+        margin-left: 20%;
+    }
+    .sp-3{
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 20%;
+    }
+    .sp-4{
+        font-family: $font-sans-italic;
+        text-align: left;
+        margin-top: 60px;
+    }
+    .scissors{
+        margin-right: auto;
+        float: left;
+        margin-left: -20px;
+        margin-top: -10px;
+    }
+    .stars{
+        float: right;
+        margin-left: auto;
+        margin-right: -15px;
+        margin-top: -10px;
+    }
+    .balloon{
+        margin-left: auto;
+        margin-top: -30px;
+        float: right;
+    }
 }
